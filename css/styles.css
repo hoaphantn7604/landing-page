@@ -120,8 +120,8 @@ background-size:cover;
 } 	
 .mainBanner .img-logo {
 display:block;
-width: auto;
-height: auto;
+width: 128px;
+height: 128px;
 margin-top: 50px;
 margin-bottom: 170px;
 }
@@ -291,8 +291,8 @@ overflow: hidden;
 @media (max-width: 768px) {
 .mainBanner .img-logo {
 display: initial;
-width: auto;
-height: auto;
+width: 128px;
+height: 128px;
 margin-top: 50px;
 margin-bottom: 40px;
 }
