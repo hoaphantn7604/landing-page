@@ -163,7 +163,7 @@ height: auto;
 .highlights {
   background: white;
   text-align: center;
-  padding: 100px 0;
+  padding: 20px 0;
 }
 .highlights .row.row-padding {
   padding-top: 40px;
@@ -287,6 +287,14 @@ list-style:none;
 .simple-content ul li span {
 display: block;
 overflow: hidden;
+}
+.button2 {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
 @media (max-width: 768px) {
 .mainBanner .img-logo {
