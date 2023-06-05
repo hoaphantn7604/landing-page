@@ -70,8 +70,13 @@
 
           <!-- Button -->
           <div class="buttons-wrapper">
-            <!-- <img src="images/chplay.png" alt="">
-            <img src="images/appstore.png" alt=""> -->
+            <button class="button2" onclick="copyLinkChPlay()">
+              <img src="images/chplay.png" alt="">
+            </button>
+
+            <button class="button2" onclick="copyLinkAppStore()">
+              <img src="images/appstore.png" alt="">
+            </button>
 
             <!-- <a href="https://apps.apple.com/app/id6449469018" class="button" target="_blank">App Store</a>
             <a href="https://play.google.com/store/apps/details?id=com.vngame.kingenglishkids"
@@ -116,7 +121,6 @@
 
             <!-- Title -->
             <h4>Facebook</h4>
-            <b>(Get install link)</b>
           </div> <!-- /.col-md-4 -->
         </a>
 
@@ -201,6 +205,35 @@
   <script src="js/jquery-2.1.0.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="js/customScripts.js"></script>
+
+  <script>
+    function copyLinkChPlay() {
+     
+
+      navigator.clipboard
+      .writeText("https://play.google.com/store/apps/details?id=com.vngame.kingenglishkids")
+      .then(() => {
+        alert("Copied link: " + "https://play.google.com/store/apps/details?id=com.vngame.kingenglishkids");
+      })
+      .catch(() => {
+        alert("something went wrong");
+      });
+  
+    }
+
+    function copyLinkAppStore() {
+      navigator.clipboard
+      .writeText("https://apps.apple.com/app/id6449469018")
+      .then(() => {
+        alert("Copied link: " + "https://apps.apple.com/app/id6449469018");
+      })
+      .catch(() => {
+        alert("something went wrong");
+      });
+    }
+  </script>
+
+
 </body>
 
 </html>

@@ -334,4 +334,12 @@ margin-bottom: 20px;
 a.button.button-stripe { 
 margin: 0 10%;
 }
+.button2 {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
 }
